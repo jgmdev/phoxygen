@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="php" InternalType="Console">
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu gcc" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-Wall" C_Options="-g;-O0;-Wall" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[
+      ]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu gcc" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall" C_Options="-O2;-Wall" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[
+      ]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+  <VirtualDirectory Name="main">
+    <VirtualDirectory Name="include">
+      <File Name="../include/main/fopen_wrappers.h"/>
+      <File Name="../include/main/logos.h"/>
+      <File Name="../include/main/php.h"/>
+      <File Name="../include/main/php_compat.h"/>
+      <File Name="../include/main/php_content_types.h"/>
+      <File Name="../include/main/php_getopt.h"/>
+      <File Name="../include/main/php_globals.h"/>
+      <File Name="../include/main/php_ini.h"/>
+      <File Name="../include/main/php_logos.h"/>
+      <File Name="../include/main/php_main.h"/>
+      <File Name="../include/main/php_memory_streams.h"/>
+      <File Name="../include/main/php_network.h"/>
+      <File Name="../include/main/php_open_temporary_file.h"/>
+      <File Name="../include/main/php_output.h"/>
+      <File Name="../include/main/php_reentrancy.h"/>
+      <File Name="../include/main/php_scandir.h"/>
+      <File Name="../include/main/php_streams.h"/>
+      <File Name="../include/main/php_syslog.h"/>
+      <File Name="../include/main/php_ticks.h"/>
+      <File Name="../include/main/php_variables.h"/>
+      <File Name="../include/main/php_version.h"/>
+      <File Name="../include/main/rfc1867.h"/>
+      <File Name="../include/main/SAPI.h"/>
+      <File Name="../include/main/snprintf.h"/>
+      <File Name="../include/main/spprintf.h"/>
+      <File Name="../include/main/win32_internal_function_disabled.h"/>
+      <File Name="../include/main/win95nt.h"/>
+      <VirtualDirectory Name="streams">
+        <File Name="../include/main/streams/php_stream_context.h"/>
+        <File Name="../include/main/streams/php_stream_filter_api.h"/>
+        <File Name="../include/main/streams/php_stream_glob_wrapper.h"/>
+        <File Name="../include/main/streams/php_stream_mmap.h"/>
+        <File Name="../include/main/streams/php_stream_plain_wrapper.h"/>
+        <File Name="../include/main/streams/php_streams_int.h"/>
+        <File Name="../include/main/streams/php_stream_transport.h"/>
+        <File Name="../include/main/streams/php_stream_userspace.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="source">
+      <File Name="../src/main/alloca.c"/>
+      <File Name="../src/main/fopen_wrappers.c"/>
+      <File Name="../src/main/getopt.c"/>
+      <File Name="../src/main/internal_functions_nw.c"/>
+      <File Name="../src/main/internal_functions_win32.c"/>
+      <File Name="../src/main/main.c"/>
+      <File Name="../src/main/mergesort.c"/>
+      <File Name="../src/main/network.c"/>
+      <File Name="../src/main/output.c"/>
+      <File Name="../src/main/php_content_types.c"/>
+      <File Name="../src/main/php_ini.c"/>
+      <File Name="../src/main/php_logos.c"/>
+      <File Name="../src/main/php_open_temporary_file.c"/>
+      <File Name="../src/main/php_scandir.c"/>
+      <File Name="../src/main/php_sprintf.c"/>
+      <File Name="../src/main/php_ticks.c"/>
+      <File Name="../src/main/php_variables.c"/>
+      <File Name="../src/main/reentrancy.c"/>
+      <File Name="../src/main/rfc1867.c"/>
+      <File Name="../src/main/SAPI.c"/>
+      <File Name="../src/main/snprintf.c"/>
+      <File Name="../src/main/spprintf.c"/>
+      <File Name="../src/main/strlcat.c"/>
+      <File Name="../src/main/strlcpy.c"/>
+      <VirtualDirectory Name="streams">
+        <File Name="../src/main/streams/cast.c"/>
+        <File Name="../src/main/streams/filter.c"/>
+        <File Name="../src/main/streams/glob_wrapper.c"/>
+        <File Name="../src/main/streams/memory.c"/>
+        <File Name="../src/main/streams/mmap.c"/>
+        <File Name="../src/main/streams/plain_wrapper.c"/>
+        <File Name="../src/main/streams/streams.c"/>
+        <File Name="../src/main/streams/transports.c"/>
+        <File Name="../src/main/streams/userspace.c"/>
+        <File Name="../src/main/streams/xp_socket.c"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="TSRM">
+    <VirtualDirectory Name="include">
+      <File Name="../include/TSRM/readdir.h"/>
+      <File Name="../include/TSRM/TSRM.h"/>
+      <File Name="../include/TSRM/tsrm_config.w32.h"/>
+      <File Name="../include/TSRM/tsrm_config_common.h"/>
+      <File Name="../include/TSRM/tsrm_nw.h"/>
+      <File Name="../include/TSRM/tsrm_strtok_r.h"/>
+      <File Name="../include/TSRM/tsrm_virtual_cwd.h"/>
+      <File Name="../include/TSRM/tsrm_win32.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="source">
+      <File Name="../src/TSRM/TSRM.c"/>
+      <File Name="../src/TSRM/tsrm_nw.c"/>
+      <File Name="../src/TSRM/tsrm_strtok_r.c"/>
+      <File Name="../src/TSRM/tsrm_virtual_cwd.c"/>
+      <File Name="../src/TSRM/tsrm_win32.c"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Zend">
+    <VirtualDirectory Name="include">
+      <File Name="../include/Zend/zend.h"/>
+      <File Name="../include/Zend/zend_alloc.h"/>
+      <File Name="../include/Zend/zend_API.h"/>
+      <File Name="../include/Zend/zend_build.h"/>
+      <File Name="../include/Zend/zend_builtin_functions.h"/>
+      <File Name="../include/Zend/zend_closures.h"/>
+      <File Name="../include/Zend/zend_compile.h"/>
+      <File Name="../include/Zend/zend_config.nw.h"/>
+      <File Name="../include/Zend/zend_config.w32.h"/>
+      <File Name="../include/Zend/zend_constants.h"/>
+      <File Name="../include/Zend/zend_dtrace.h"/>
+      <File Name="../include/Zend/zend_dynamic_array.h"/>
+      <File Name="../include/Zend/zend_errors.h"/>
+      <File Name="../include/Zend/zend_exceptions.h"/>
+      <File Name="../include/Zend/zend_execute.h"/>
+      <File Name="../include/Zend/zend_extensions.h"/>
+      <File Name="../include/Zend/zend_float.h"/>
+      <File Name="../include/Zend/zend_gc.h"/>
+      <File Name="../include/Zend/zend_globals.h"/>
+      <File Name="../include/Zend/zend_globals_macros.h"/>
+      <File Name="../include/Zend/zend_hash.h"/>
+      <File Name="../include/Zend/zend_highlight.h"/>
+      <File Name="../include/Zend/zend_indent.h"/>
+      <File Name="../include/Zend/zend_ini.h"/>
+      <File Name="../include/Zend/zend_ini_parser.h"/>
+      <File Name="../include/Zend/zend_ini_scanner.h"/>
+      <File Name="../include/Zend/zend_ini_scanner_defs.h"/>
+      <File Name="../include/Zend/zend_interfaces.h"/>
+      <File Name="../include/Zend/zend_istdiostream.h"/>
+      <File Name="../include/Zend/zend_iterators.h"/>
+      <File Name="../include/Zend/zend_language_parser.h"/>
+      <File Name="../include/Zend/zend_language_scanner.h"/>
+      <File Name="../include/Zend/zend_language_scanner_defs.h"/>
+      <File Name="../include/Zend/zend_list.h"/>
+      <File Name="../include/Zend/zend_llist.h"/>
+      <File Name="../include/Zend/zend_modules.h"/>
+      <File Name="../include/Zend/zend_multibyte.h"/>
+      <File Name="../include/Zend/zend_multiply.h"/>
+      <File Name="../include/Zend/zend_object_handlers.h"/>
+      <File Name="../include/Zend/zend_objects.h"/>
+      <File Name="../include/Zend/zend_objects_API.h"/>
+      <File Name="../include/Zend/zend_operators.h"/>
+      <File Name="../include/Zend/zend_ptr_stack.h"/>
+      <File Name="../include/Zend/zend_qsort.h"/>
+      <File Name="../include/Zend/zend_signal.h"/>
+      <File Name="../include/Zend/zend_stack.h"/>
+      <File Name="../include/Zend/zend_static_allocator.h"/>
+      <File Name="../include/Zend/zend_stream.h"/>
+      <File Name="../include/Zend/zend_string.h"/>
+      <File Name="../include/Zend/zend_strtod.h"/>
+      <File Name="../include/Zend/zend_ts_hash.h"/>
+      <File Name="../include/Zend/zend_types.h"/>
+      <File Name="../include/Zend/zend_variables.h"/>
+      <File Name="../include/Zend/zend_vm.h"/>
+      <File Name="../include/Zend/zend_vm_def.h"/>
+      <File Name="../include/Zend/zend_vm_execute.h"/>
+      <File Name="../include/Zend/zend_vm_opcodes.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="source">
+      <File Name="../src/Zend/zend.c"/>
+      <File Name="../src/Zend/zend_alloc.c"/>
+      <File Name="../src/Zend/zend_API.c"/>
+      <File Name="../src/Zend/zend_builtin_functions.c"/>
+      <File Name="../src/Zend/zend_closures.c"/>
+      <File Name="../src/Zend/zend_compile.c"/>
+      <File Name="../src/Zend/zend_constants.c"/>
+      <File Name="../src/Zend/zend_default_classes.c"/>
+      <File Name="../src/Zend/zend_dtrace.c"/>
+      <File Name="../src/Zend/zend_dynamic_array.c"/>
+      <File Name="../src/Zend/zend_exceptions.c"/>
+      <File Name="../src/Zend/zend_execute.c"/>
+      <File Name="../src/Zend/zend_execute_API.c"/>
+      <File Name="../src/Zend/zend_extensions.c"/>
+      <File Name="../src/Zend/zend_float.c"/>
+      <File Name="../src/Zend/zend_gc.c"/>
+      <File Name="../src/Zend/zend_hash.c"/>
+      <File Name="../src/Zend/zend_highlight.c"/>
+      <File Name="../src/Zend/zend_indent.c"/>
+      <File Name="../src/Zend/zend_ini.c"/>
+      <File Name="../src/Zend/zend_ini_parser.c"/>
+      <File Name="../src/Zend/zend_ini_scanner.c"/>
+      <File Name="../src/Zend/zend_interfaces.c"/>
+      <File Name="../src/Zend/zend_iterators.c"/>
+      <File Name="../src/Zend/zend_language_parser.c"/>
+      <File Name="../src/Zend/zend_language_scanner.c"/>
+      <File Name="../src/Zend/zend_list.c"/>
+      <File Name="../src/Zend/zend_llist.c"/>
+      <File Name="../src/Zend/zend_multibyte.c"/>
+      <File Name="../src/Zend/zend_object_handlers.c"/>
+      <File Name="../src/Zend/zend_objects.c"/>
+      <File Name="../src/Zend/zend_objects_API.c"/>
+      <File Name="../src/Zend/zend_opcode.c"/>
+      <File Name="../src/Zend/zend_operators.c"/>
+      <File Name="../src/Zend/zend_ptr_stack.c"/>
+      <File Name="../src/Zend/zend_qsort.c"/>
+      <File Name="../src/Zend/zend_signal.c"/>
+      <File Name="../src/Zend/zend_sprintf.c"/>
+      <File Name="../src/Zend/zend_stack.c"/>
+      <File Name="../src/Zend/zend_static_allocator.c"/>
+      <File Name="../src/Zend/zend_stream.c"/>
+      <File Name="../src/Zend/zend_string.c"/>
+      <File Name="../src/Zend/zend_strtod.c"/>
+      <File Name="../src/Zend/zend_ts_hash.c"/>
+      <File Name="../src/Zend/zend_variables.c"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+</CodeLite_Project>

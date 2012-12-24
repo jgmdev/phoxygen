@@ -1,1 +1,4 @@
 /docs/html
+/codelite/.clang
+/codelite/phoxygen.tags
+/codelite/phoxygen.workspace.*
