@@ -12,6 +12,9 @@ graphs and has many other useful features for newcomers to study
 the code. Also examples can be written seperately and linked to
 any documented element on the code.
 
+Documentation on how to use Doxygen as document the source with it
+can be found at http://doxygen.org or http://www.stack.nl/~dimitri/doxygen/manual.html
+
 
 Generating the documentation
 ===============================================================
